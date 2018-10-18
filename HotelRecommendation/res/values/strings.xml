@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hotel Recommendation </string>
+    <string name="projectname">Hotel Recommendation</string>
+    <!-- ..... -->
+    <string name="ip_settings">IP Configution</string>
+    <string name="ipformname">Server IP Form</string>
+    <string name="ipAddress">IP Address</string>
+    <string name="ipServer">Server IP </string>
+    <string name="ok">OK</string>
+    <string name="cancle">CANCLE</string>
+    <!-- ..... -->
+    <string name="tittle_login">Login</string>
+    <string name="loginformname">User Login Form</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <!-- ..... -->
+    <string name="tittle_registration">Registration</string>
+    <string name="registrationFormName">User Registration Form</string>
+    <string name="userrole">User Role</string>
+    <string name="usergender">User Gender</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email Id</string>
+    <string name="phone">Phone No.</string>
+    <string name="register">REGISTER</string>
+    <!-- ..... -->
+    <string name="messageforRegister">Already have an account?</string>
+    <string name="messageforLogin">Dont have an account</string>
+    <!-- ..... -->
+    <string name="tittle_welcome">Welcome User</string>
+    <string name="welcome">Welcome</string>
+    <string name="userProfile">Set Profile</string>
+    <!-- .... -->
+    <string name="title_activity_seeker">SeekerActivity</string>
+    <string name="title_activity_driver">SearchHotel</string>
+    <string name="location">Get Location</string>
+    <string name="latitude">My Latitude</string>
+    <string name="longitude">My Longitude</string>
+    <string name="smoking">Smoking</string>
+    <string name="vacantseat">No Of Vacant Seat</string>
+    <string name="windowseat">Window Seat Prefer</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="select">Select</string>
+
+</resources>

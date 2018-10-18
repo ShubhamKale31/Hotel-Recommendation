@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"  
+    android:background="@drawable/images4"  
+     >
+
+     <EditText
+         android:id="@+id/startDateeditText"
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="98dp"
+         android:editable="false"
+         android:textColor="#ffffff"
+        
+         android:ems="10" />
+
+     <EditText
+         android:id="@+id/endDateEditText"
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_centerVertical="true"
+         android:editable="false"
+         android:ems="10" 
+         android:textColor="#ffffff">
+
+         <requestFocus />
+     </EditText>
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/endDateEditText"
+         android:layout_alignParentLeft="true"
+         android:layout_marginBottom="18dp"
+         android:text="EndDate"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <ImageButton
+         android:id="@+id/startDateImageButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/startDateeditText"
+         android:layout_alignParentRight="true"
+         android:cropToPadding="true"
+         android:src="@drawable/calendar_icon" />
+
+     <ImageButton
+         android:id="@+id/endDateimageButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/endDateEditText"
+         android:layout_alignParentRight="true"
+         android:cropToPadding="true"
+         android:src="@drawable/calendar_icon" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/startDateImageButton"
+         android:layout_alignParentLeft="true"
+         android:text="StartDate"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <Button
+         android:id="@+id/bookButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="24dp"
+         android:layout_marginLeft="26dp"
+         android:layout_toRightOf="@+id/prize"
+         android:text="Book" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/endDateEditText"
+         android:layout_marginTop="25dp"
+         android:text="Prize"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/prize"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/textView3"
+         android:layout_marginTop="22dp"
+         android:text="TextView"
+         android:textColor="#ffffff" />
+
+</RelativeLayout>

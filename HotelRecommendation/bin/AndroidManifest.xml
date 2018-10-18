@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.java.android.hotel"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.java.android.hotel.ApplicationContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.java.android.hotelActivity.WelcomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.java.android.hotelActivity.LoginActivity"
+            android:label="@string/tittle_login" >
+        </activity>
+        <activity
+            android:name="com.java.android.hotelActivity.RegistrationActivity"
+            android:label="@string/tittle_registration" >
+        </activity>
+        <activity
+            android:name="com.java.android.hotelActivity.WelcomeDriver"
+            android:label="@string/tittle_welcome" >
+        </activity>
+        <activity
+            android:name="com.java.android.hotelActivity.WelcomeSeeker"
+            android:label="@string/tittle_welcome" >
+        </activity>
+        
+        <activity
+            android:name="com.java.android.hotelActivity.MenuActivity"
+            android:label="@string/title_activity_driver" >
+        </activity>
+         <activity
+            android:name="com.java.android.hotelActivity.ListViewActivity"
+            android:label="@string/title_activity_driver" >
+        </activity>
+         <activity
+            android:name="com.java.android.hotelActivity.CriteriaSearchActivity"
+            android:label="@string/title_activity_driver" >
+        </activity>
+         <activity
+            android:name="com.java.android.hotelActivity.CriteriaListViewActivity"
+            android:label="@string/title_activity_driver" >
+        </activity>
+         <activity
+            android:name="com.java.android.hotelActivity.RoomListViewActivity"
+            android:label="@string/title_activity_driver" >
+        </activity>
+         <activity
+            android:name="com.java.android.hotelActivity.BookRoomActivity"
+            android:label="@string/title_activity_driver" >
+        </activity>
+          <activity
+            android:name="com.java.android.hotelActivity.SuccessActivity"
+            android:label="@string/title_activity_driver" >
+        </activity>
+    </application>
+
+</manifest>
